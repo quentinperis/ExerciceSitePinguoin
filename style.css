@@ -1,0 +1,113 @@
+/* Réinitialisation des marges et des espacements pour tous les éléments */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style global pour le corps de la page */
+body {
+    background-color: rgb(12, 224, 154); /* Couleur de fond */
+}
+
+/* Style pour la classe .card */
+.card {
+    border: solid 1px black;
+    width: 60dvw;
+    height: 100dvh;
+    margin: auto;
+    background-color: aqua;
+}
+
+/* Style pour l'en-tête */
+header {
+    height: 200px;
+    background-color: aquamarine;
+}
+
+/* Style pour le menu */
+nav ul {
+    margin-left: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+/* Style pour les liens */
+a {
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Style pour les éléments de liste */
+li {
+    height: 500px;
+}
+
+/* Style pour les boutons */
+button {
+    background-color: green;
+    height: 3dvh;
+    width: 6dvw;
+    border: none;
+}
+
+/* Style pour les boutons au survol */
+button:hover {
+    background-color: greenyellow;
+    transition: 400ms ease;
+    cursor: pointer;
+}
+
+/* Style pour les titres de niveau 1 */
+h1 {
+    margin-bottom: 60px;
+    margin-left: 10px;
+    color: white;
+    font-size: 70px;
+}
+
+/* Style pour les images */
+img {
+    height: 300px;
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style flottant pour les images et les titres de niveau 2 */
+img, h2 {
+    float: left;
+}
+
+/* Style pour les titres de niveau 3 */
+h3 {
+    margin-top: 10px;
+}
+
+/* Style pour la classe .clear */
+.clear {
+    clear: both;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+/* Style pour les éléments span */
+span {
+    font-weight: bold;
+}
+
+/* Style pour la classe .cardinline */
+.cardbottom {
+    float: left;
+}
+.floatcard{
+    position: relative;
+    float: left;
+}
